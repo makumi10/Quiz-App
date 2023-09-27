@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Kenyan News Quiz App</title>
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <div class="logo">
+                    <h1>News Quiz App</h1>
+                </div>
+
+                <div class="links">
+                    <ul>
+                        <li>Log In</li>
+                        <li>Sign Up</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="quizsection">
+            <div class="quizbg">
+
+                <!-- Displays number of correct points -->
+                <div class="counter">
+                    <i class="fa fa-question-circle-o"></i>
+                    <p>You've scored <span class="count" id="count"></span> points.</p>
+                    <i class="fa fa-close"></i>
+                </div>
+
+                <!-- Miscelaneous Boundary -->
+                <div class="boundary"></div>
+
+                <!-- Dispalys Questions -->
+                <div class="question">
+                    <p class="quiz" id="question">
+                        <!-- Lorem ipsum dolor sit amet consectetur -->
+                    </p>
+                    <!-- <div class="hint">
+                        <span>HINT</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nam totam neque obcaecati, 
+                            illum incidunt qui. Atque assumenda suscipit quam illo sapiente, quasi nulla, reiciendis delectus similique cum, 
+                            quisquam tempora?
+                        </p>
+                    </div> -->
+                </div>
+
+                <!-- Displays Multiple Choices -->
+                <div class="answer">
+
+                    <!-- <div class="quiz2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maxime rem cupiditate itaque quis, 
+                        dolor officia a nostrum asperiores voluptates placeat totam. Saepe distinctio corporis quaerat, 
+                        accusamus sint magnam fugiat. <span class="three_point">For 3 Points</span>
+                    </div>
+                    <form action="" method="get">
+                        <input type="text" name="value" id="ans" placeholder="Enter guess">
+                        <button class="btn" type="submit" >Answer</button>
+                    </form> -->
+
+                    <!-- <div class="mc_link">
+                        Yikes I'm stumped <a href="#">Multiple Choice, Please?</a>
+                    </div> -->
+
+                    <ul class="quiz-options">
+                        <!-- <li>afdgsajfhafkhjagdgkla</li>
+                        <li>dafvhsjsahljgshagjkas</li> -->
+                    </ul>
+                </div>
+
+                <!-- Displays Result -->
+                <div id="result"></div>
+
+                <div class="confirmanswer">
+                    <button class="btn" type = "button" id = "check-answer">Check Answer</button>
+                    <button class="btn" type = "button" id = "play-again">Play Again!</button>
+
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
