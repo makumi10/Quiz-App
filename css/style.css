@@ -194,11 +194,12 @@ body{
 }
 
 .confirmanswer .btn{
+    font-family: 'Nunito', sans-serif;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
     padding: .5rem 1rem;    
     margin: 0 auto 0 auto;
-    text-transform: uppercase;
+    text-transform: capitalize;
     cursor: pointer;
     display: block;
     letter-spacing: 2px;
